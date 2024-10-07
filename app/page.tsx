@@ -15,34 +15,34 @@ export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const skills = [
-    "React", "Next.js", "Node.js", "Express", "MongoDB", "PostgreSQL",
-    "TypeScript", "Python", "Docker", "AWS", "GraphQL", "TailwindCSS"
+    "React", "Next.js", "Node.js", "Express", "PostgreSQL",
+    "TypeScript", "Docker", "AWS", "Angular", "TailwindCSS"
   ]
 
   const projects = [
     {
-      name: "E-commerce Platform",
-      description: "Full-stack online store with real-time inventory management and secure payment processing.",
-      image: "/placeholder.svg?height=300&width=400",
+      name: "Campo Minado",
+      description: "Campo minado é um jogo muito interessante, tanto para jogar quanto para desenvolver, geralmente não enxergamos o uso de recursividade no uso de funções, mas isso tem um papel muito importante para simplificar e facilitar o código que um jogo como esse. Feito apenas com Javascript, HTML e CSS, em 2021.",
+      image: "/images/campominado.jfif",
       link: "https://example.com/ecommerce"
     },
     {
-      name: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, task assignment, and progress tracking.",
-      image: "/placeholder.svg?height=300&width=400",
-      link: "https://example.com/taskmanager"
+      name: "Xadrez",
+      description: "De forma a colocar em prática o estudo da API Drag and Drop do HTML, desenvolvi esse projeto de um jogo de xadrez que usa o DnD para movimentar as peças. Ele não está completo (apresenta alguns bugs) mas foi um projeto satisfatório para os fins propostos.",
+      image: "/images/xadrez.jfif",
+      link: "https://github.com/GuiDuarte07/Chess-game_test"
     },
     {
-      name: "AI-powered Chatbot",
-      description: "Natural language processing bot for customer support, integrated with knowledge base and ticket system.",
-      image: "/placeholder.svg?height=300&width=400",
-      link: "https://example.com/aichatbot"
+      name: "Jogo dos Números",
+      description: "Não sei dizer qual o nome desse jogo, chamei de Jogo dos Numeros, foi um projeto muito divertido de se fazer, usando react. Quem já tentou fazer esse tipo de evento de drag ou mousemove no react sabe o quanto é complicado de fazer, então o meu objeto foi fazer funcionar da forma mais simples possível essa movimentação de peça usando conceitos de \"Drag'n'Drop with mouse events\"",
+      image: "/images/jogodosnumeros.jfif",
+      link: "https://github.com/GuiDuarte07/Jogo-dos-numeros"
     },
     {
-      name: "Data Visualization Dashboard",
-      description: "Interactive charts and graphs for big data analysis, with customizable views and real-time data updates.",
-      image: "/placeholder.svg?height=300&width=400",
-      link: "https://example.com/dataviz"
+      name: "Controle Certo",
+      description: "Controle Certo é um aplicativo de gerenciamento de despesas e receitas. O objetivo desse site é permitir um controle maior dos gastos do usuário, a fim de melhorar a saúde financeira dele. O diferencial do Controle Certo é sua interface amigável e de fácil compreensão. Nesse site, é possível registrar suas contas, cartões e separar suas receitas e despesas por categorias, sendo possível também ter um controle das faturas dos cartões cadastrados.",
+      image: "/images/controlecerto.png",
+      link: "https://github.com/GuiDuarte07/controlecerto_frontend"
     }
   ]
 

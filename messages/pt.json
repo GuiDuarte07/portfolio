@@ -17,7 +17,25 @@
   "skills": {
     "title": "Habilidades",
     "timeline": {
-      "title": "Timeline"
+      "title": "Timeline",
+      "ads": {
+        "title": "Análise e Desenvolvimento de Sistemas - UNINTER",
+        "type": "Educação",
+        "period": "06/2023 - atualmente",
+        "description": "O curso de Análise e Desenvolvimento de Sistemas (ADS) na modalidade EAD oferecido pela UNINTER capacita os alunos a adquirir as habilidades e conhecimentos necessários para compreender a projeção, construção e manutenção de software. O programa abrange diversas etapas do desenvolvimento, incluindo a coleta de requisitos do sistema, a tradução dessas informações em documentação estruturada, o planejamento do desenvolvimento, a programação, o deploy e a manutenção a longo prazo do software. Com uma formação abrangente, o curso de ADS prepara o profissional para atuar em qualquer uma ou em todas as fases do desenvolvimento de software, permitindo que ele se destaque em um mercado em constante evolução. Os graduados saem aptos a enfrentar desafios variados, contribuindo de maneira significativa em equipes multidisciplinares e em projetos diversos."
+      },
+      "csj": {
+        "title": "Analista de Suporte Tecnico na CSJ SISTEMAS",
+        "type": "Experiência",
+        "period": "01/2022 - atualmente",
+        "description": "Suporte ao cliente em sistema SAAS. Requer conhecimentos práticos sobre a plataforma que pode se resumir a um ERP ou POS."
+      },
+      "ufersa": {
+        "title": "Bacharelado em Ciências e Tecnologias (BCT) - UFERSA",
+        "type": "Educação",
+        "period": "06/2018 - incompleto",
+        "description": "O bacharelado em Ciências e Tecnologias prepara o profissional para a especialização em diversas áreas da engenharia, como civil, mecânica e elétrica. Durante esse curso, percebi meu crescente interesse por programação. Em virtude dessa paixão e da intensidade com que comecei a me dedicar a essa nova área, decidi trancar o curso e concentrar meus esforços no desenvolvimento de habilidades e conhecimentos em programação."
+      }
     }
   },
   "projects": {

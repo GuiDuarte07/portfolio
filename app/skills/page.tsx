@@ -66,9 +66,9 @@ export default function Skills() {
       </div>
 
       {/* TimeLine */}
-      {/* <h2 className="mt-10 text-4xl font-bold mb-8 font-[family-name:var(--font-geist-mono)]">{t('timeline.title')}</h2>
+      <h2 className="mt-10 text-4xl font-bold mb-8 font-[family-name:var(--font-geist-mono)]">{t('timeline.title')}</h2>
 
-      <Timeline></Timeline> */}
+      <Timeline></Timeline>
     </motion.section>
   );
 }

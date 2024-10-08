@@ -7,11 +7,18 @@
   },
   "HomePage": {
     "title": "Olá 👋, eu sou o Guilherme Duarte",
-    "sub-title": "Desenvolvedor Full-Stack"
+    "sub-title": "Desenvolvedor Full-Stack",
+    "summary": "Desenvolvedor full-stack com uma paixão por programação e uma forte base em tecnologias modernas. \nMinha trajetória inclui estudos em Ciência e Tecnologia pela UFERSA e atualmente curso Análise e Desenvolvimento de Sistemas pela UNINTER, complementados por programas intensivos de formação em desenvolvimento web full-stack, como o SharpCoders e o programa Desenvolve. \nTenho experiência prática em uma ampla gama de tecnologias, incluindo HTML5, CSS3, JavaScript, React, Angular, Node.js, .NET e Docker, além de deploys em AWS. \nMeu foco em projetos pessoais, como o 'Controle Certo' e 'Apollo Coders', me permitiu desenvolver habilidades em liderança de equipes, uso de metodologias ágeis e colaboração por GitHub, além de aprimorar meus conhecimentos em integração de sistemas e API REST. \nSou autodidata e estou sempre em busca de novos desafios. Gosto de me adaptar a diferentes ambientes e equipes, e estou disposto a aprender qualquer tecnologia que me permita contribuir mais ainda. Com uma forte motivação para solucionar problemas complexos, busco oportunidades para contribuir tanto no front-end quanto no back-end, com foco na entrega de soluções eficientes e bem construídas."
   },
   "contact": {
     "title": "Me contate",
     "submit": "Enviar Mensagem"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "timeline": {
+      "title": "Timeline"
+    }
   },
   "projects": {
     "title": "Projetos",

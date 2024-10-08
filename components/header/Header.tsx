@@ -17,13 +17,13 @@ export default function Header() {
   }
 
   return (
-    <header className="fixed w-full z-10 bg-black bg-opacity-50 backdrop-blur-md">
+    <header className="fixed w-full z-10 dark:bg-black bg-gray-400 bg-opacity-50 backdrop-blur-md">
         <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-2xl font-semibold flex items-center gap-2"
+            className="text-2xl font-semibold flex items-center gap-2 font-[family-name:var(--font-geist-mono)]"
           >
             <SquareTerminal />Guilherme Duarte
           </motion.div>
@@ -42,7 +42,7 @@ export default function Header() {
               <Button
                 key={section}
                 variant="ghost"
-                className="capitalize"
+                className="capitalize font-[family-name:var(--font-geist-mono)]"
                 onClick={() => setSection(section)}
               >
                 {t(section)}

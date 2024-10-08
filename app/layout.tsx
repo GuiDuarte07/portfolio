@@ -6,6 +6,7 @@ import Main from "@/components/main/Main";
 
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import { Metadata } from "next";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -18,6 +19,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+export const metadata: Metadata = {
+  title: 'Portfolio - Guilherme Duarte',
+  description: 'Esse é meu portfolio web.',
+}
+
 export default async function RootLayout({
   children,
 }: Readonly<{
@@ -28,12 +34,12 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          <div className="min-h-screen bg-gradient-to-br from-gray-700 to-slate-900 text-white">
+          <div className="min-h-screen bg-gradient-to-br dark:from-gray-700 dark:to-slate-900 dark:text-white from-white to-slate-200 text-black">
             <Header></Header>
 
             <Main>{children}</Main>

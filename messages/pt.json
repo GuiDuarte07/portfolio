@@ -1,0 +1,36 @@
+{
+  "NavBar": {
+    "home": "Início",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "HomePage": {
+    "title": "Olá 👋, eu sou o Guilherme Duarte",
+    "sub-title": "Desenvolvedor Full-Stack"
+  },
+  "contact": {
+    "title": "Me contate",
+    "submit": "Enviar Mensagem"
+  },
+  "projects": {
+    "title": "Projetos",
+    "view-project": "Ver Projeto",
+    "campoMinado": {
+      "name": "Campo Minado",
+      "description": "Campo minado é um jogo muito interessante, tanto para jogar quanto para desenvolver. Geralmente não enxergamos o uso de recursividade no uso de funções, mas isso tem um papel muito importante para simplificar e facilitar o código que um jogo como esse. Feito apenas com Javascript, HTML e CSS, em 2021."
+    },
+    "xadrez": {
+      "name": "Xadrez",
+      "description": "De forma a colocar em prática o estudo da API Drag and Drop do HTML, desenvolvi esse projeto de um jogo de xadrez que usa o DnD para movimentar as peças. Ele não está completo (apresenta alguns bugs) mas foi um projeto satisfatório para os fins propostos."
+    },
+    "jogoDosNumeros": {
+      "name": "Jogo dos Números",
+      "description": "Não sei dizer qual o nome desse jogo, chamei de Jogo dos Números, foi um projeto muito divertido de se fazer, usando React. Quem já tentou fazer esse tipo de evento de drag ou mousemove no React sabe o quanto é complicado de fazer, então o meu objetivo foi fazer funcionar da forma mais simples possível essa movimentação de peça usando conceitos de \"Drag'n'Drop com mouse events\"."
+    },
+    "controleCerto": {
+      "name": "Controle Certo",
+      "description": "Controle Certo é um aplicativo de gerenciamento de despesas e receitas. O objetivo desse site é permitir um controle maior dos gastos do usuário, a fim de melhorar a saúde financeira dele. O diferencial do Controle Certo é sua interface amigável e de fácil compreensão. Nesse site, é possível registrar suas contas, cartões e separar suas receitas e despesas por categorias, sendo possível também ter um controle das faturas dos cartões cadastrados."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "NavBar": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "title": "Hello 👋, I'm Guilherme Duarte",
+    "sub-title": "Full-Stack Developer"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "submit": "Send Message"
+  },
+  "projects": {
+    "title": "Projects",
+    "view-project": "View Project",
+    "campoMinado": {
+      "name": "Minesweeper",
+      "description": "Minesweeper is a very interesting game, both to play and to develop. We often don't see the use of recursion in functions, but it plays an important role in simplifying and easing the code of a game like this. Made with just JavaScript, HTML, and CSS in 2021."
+    },
+    "xadrez": {
+      "name": "Chess",
+      "description": "To put the study of the HTML Drag and Drop API into practice, I developed this chess game project that uses DnD to move pieces. It is not complete (has some bugs) but was a satisfactory project for its intended purposes."
+    },
+    "jogoDosNumeros": {
+      "name": "Number Game",
+      "description": "I don't know what to call this game, I called it Number Game. It was a very fun project to make using React. Anyone who has tried to implement drag or mousemove events in React knows how complicated it is, so my goal was to make piece movement work as simply as possible using \"Drag'n'Drop with mouse events\"."
+    },
+    "controleCerto": {
+      "name": "Controle Certo",
+      "description": "Controle Certo is an expense and revenue management application. The goal of this site is to allow users to better control their expenses, improving their financial health. The differential of Controle Certo is its friendly and easy-to-understand interface. This site allows you to register your accounts, cards, and separate your income and expenses into categories, also allowing you to control the bills of the registered cards."
+    }
+  }
+}

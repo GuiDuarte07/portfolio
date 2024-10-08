@@ -2,12 +2,14 @@
 import { Button } from "@/components/ui/button";
 import { motion } from 'framer-motion'
 import { Menu, X, SquareTerminal } from 'lucide-react'
+import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
+  const t = useTranslations('NavBar');
 
   const setSection = (section: string) => {
     setMenuOpen(false);
@@ -43,7 +45,7 @@ export default function Header() {
                 className="capitalize"
                 onClick={() => setSection(section)}
               >
-                {section}
+                {t(section)}
               </Button>
             ))}
           </motion.div>

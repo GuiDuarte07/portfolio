@@ -14,12 +14,16 @@ import {
   AmazonwebservicesOriginalWordmark,
   TailwindcssOriginal,
   DotnetcorePlain,
-  RabbitmqOriginal
+  RabbitmqOriginal,
+  Html5Original,
+  Css3Original
 } from "devicons-react";
 import { useTranslations } from "next-intl";
 import Timeline from "@/components/timeline/Timeline";
 
 const skills: { name: string, icon: JSX.Element }[] = [
+  { name: "HTML5", icon: <Html5Original size={24}></Html5Original> },
+  { name: "CSS3", icon: <Css3Original size={24}></Css3Original> },
   { name: "JavaScript", icon: <JavascriptOriginal size={24}></JavascriptOriginal> },
   { name: "TypeScript", icon: <TypescriptOriginal size={24}></TypescriptOriginal> },
   { name: "React", icon: <ReactOriginal size={24}></ReactOriginal> },
@@ -58,7 +62,7 @@ export default function Skills() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="bg-white bg-opacity-10 rounded-lg p-1 text-center hover:bg-opacity-20 transition-all flex gap-2 items-center justify-center font-[family-name:var(--font-geist-mono)]"
+            className="bg-slate-600 bg-opacity-10 rounded-lg p-1 text-center hover:bg-opacity-20 transition-all flex gap-2 items-center justify-center font-[family-name:var(--font-geist-mono)]"
           >
             {skill.icon}<span className="text-xs">{skill.name}</span>
           </motion.div>

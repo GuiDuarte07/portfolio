@@ -19,9 +19,9 @@ export default function Contact() {
     >
       <h2 className="text-4xl font-bold mb-8">{t('title')}</h2>
       <form className="space-y-4 max-w-md">
-        <Input type="text" placeholder="Your Name" className="bg-white bg-opacity-10 border-none" />
-        <Input type="email" placeholder="Your Email" className="bg-white bg-opacity-10 border-none" />
-        <Textarea placeholder="Your Message" className="bg-white bg-opacity-10 border-none" />
+        <Input type="text" placeholder="Your Name" className="bg-slate-300 dark:bg-gray-600 shadow-lg bg-opacity-10 border-none" />
+        <Input type="email" placeholder="Your Email" className="bg-slate-300 dark:bg-gray-600 shadow-lg bg-opacity-10 border-none" />
+        <Textarea placeholder="Your Message" className="bg-slate-300 dark:bg-gray-600 shadow-lg bg-opacity-10 border-none" />
         <Button type="submit" className="w-full">{t('submit')}</Button>
       </form>
     </motion.section>

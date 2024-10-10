@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation';
 
-export default function Portfolio() {
-  redirect('/home');
+
+export default function RootPage() {
+  redirect('/pt');
   return null;
-};
+}

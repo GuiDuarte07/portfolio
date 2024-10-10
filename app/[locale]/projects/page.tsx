@@ -17,17 +17,17 @@ import { useTranslations } from "next-intl";
 const projects = [
   {
     key: "campoMinado",
-    image: "/images/campominado.jfif",
+    image: "/images/campominado.png",
     link: "https://github.com/GuiDuarte07/Minesweeper",
   },
   {
     key: "xadrez",
-    image: "/images/xadrez.jfif",
+    image: "/images/xadrez.png",
     link: "https://github.com/GuiDuarte07/Chess-game_test",
   },
   {
     key: "jogoDosNumeros",
-    image: "/images/jogodosnumeros.jfif",
+    image: "/images/jogodosnumeros.png",
     link: "https://github.com/GuiDuarte07/Jogo-dos-numeros",
   },
   {
@@ -62,7 +62,7 @@ export default function Projects() {
               <CardHeader className="p-0">
                 <Image
                   src={project.image}
-                  alt={t(`${project.key}.name`)} // Usando a tradução para o nome do projeto
+                  alt={t(`${project.key}.name`)}
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover"
@@ -70,12 +70,12 @@ export default function Projects() {
               </CardHeader>
               <CardContent className="p-4">
                 <CardTitle>{t(`${project.key}.name`)}</CardTitle>
-                <CardDescription className="mt-2">
+                <CardDescription className="mt-2 dark:text-slate-200 text-slate-800">
                   {t(`${project.key}.description`)}
                 </CardDescription>
               </CardContent>
               <CardFooter>
-                <Button asChild className="w-full">
+                <Button asChild className="w-full bg-slate-700 dark:bg-gray-300">
                   <a
                     href={project.link}
                     target="_blank"

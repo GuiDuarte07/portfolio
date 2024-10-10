@@ -5,16 +5,21 @@ import { Menu, X, SquareTerminal } from 'lucide-react'
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import LanguageSwitcher from "../languageSwitcher/LanguageSwitcher";
+import ThemeSwitcher from "../themeSwitcher/ThemeSwitcher";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
   const t = useTranslations('NavBar');
 
+
   const setSection = (section: string) => {
     setMenuOpen(false);
     router.push(section)
   }
+
+  
 
   return (
     <header className="fixed w-full z-10 dark:bg-black bg-gray-400 bg-opacity-50 backdrop-blur-md">
@@ -27,11 +32,15 @@ export default function Header() {
           >
             <SquareTerminal />Guilherme Duarte
           </motion.div>
-          <div className="md:hidden">
-            <Button variant="ghost" size="icon" onClick={() => setMenuOpen(!menuOpen)}>
-              {menuOpen ? <X /> : <Menu />}
-            </Button>
-          </div>
+          <div className="flex items-center space-x-4">
+              <LanguageSwitcher />
+              <ThemeSwitcher />
+              <div className="md:hidden">
+                <Button variant="ghost" size="icon" onClick={() => setMenuOpen(!menuOpen)}>
+                  {menuOpen ? <X /> : <Menu />}
+                </Button>
+              </div>
+            </div>
           <motion.div
             className={`${menuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row absolute md:relative top-full left-0 w-full md:w-auto bg-black md:bg-transparent`}
             initial={{ opacity: 0, y: -20 }}

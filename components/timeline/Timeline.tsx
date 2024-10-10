@@ -18,10 +18,10 @@ export default function Timeline() {
               {t(`${event}.title`)}{" "}
               <Badge className="mt-2 text-xs">{t(`${event}.type`)}</Badge>
             </h3>
-            <span className="text-sm text-gray-500 font-[family-name:var(--font-geist-sans)]">
+            <span className="text-sm text-gray-600 dark:text-gray-300 font-[family-name:var(--font-geist-sans)]">
               {t(`${event}.period`)}
             </span>
-            <p className="text-sm darktext-gray-700 text-gray-300 mt-1 font-[family-name:var(--font-geist-sans)]">
+            <p className="text-sm darktext-gray-700 text-slate-700 dark:text-gray-300 mt-1 font-[family-name:var(--font-geist-sans)]">
               {t(`${event}.description`)}
             </p>
           </div>

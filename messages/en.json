@@ -7,14 +7,36 @@
   },
   "HomePage": {
     "title": "Hello 👋, I'm Guilherme Duarte",
-    "sub-title": "Full-Stack Developer"
+    "sub-title": "Full-Stack Developer",
+    "summary": "Full-stack developer with a passion for programming and a strong foundation in modern technologies.\nMy journey includes studies in Science and Technology at UFERSA, and I am currently pursuing a degree in Systems Analysis and Development at UNINTER, complemented by intensive full-stack web development training programs such as SharpCoders and the Desenvolve program.\nI have hands-on experience with a wide range of technologies, including HTML5, CSS3, JavaScript, React, Angular, Node.js, .NET, and Docker, as well as deploying on AWS.\nMy focus on personal projects like 'Controle Certo' and 'Apollo Coders' has allowed me to develop skills in team leadership, agile methodologies, and GitHub collaboration, while also enhancing my knowledge in system integration and REST APIs.\nI am self-taught and always seeking new challenges. I enjoy adapting to different environments and teams and am willing to learn any technology that enables me to contribute even more. With strong motivation to solve complex problems, I am looking for opportunities to contribute to both front-end and back-end development, focusing on delivering efficient and well-constructed solutions."
   },
   "contact": {
     "title": "Contact Me",
     "submit": "Send Message"
   },
   "skills": {
-    "title": "Skills"
+    "title": "Skills",
+    "timeline": {
+      "title": "Timeline",
+      "ads": {
+        "title": "Systems Analysis and Development - UNINTER",
+        "type": "Education",
+        "period": "06/2023 - currently",
+        "description": "The Systems Analysis and Development (ADS) course, offered in the distance learning modality by UNINTER, equips students with the skills and knowledge necessary to understand the design, construction, and maintenance of software. The program covers various stages of development, including system requirements gathering, translating this information into structured documentation, development planning, programming, deployment, and long-term software maintenance. With a comprehensive education, the ADS course prepares professionals to work in any or all phases of software development, enabling them to stand out in an ever-evolving market. Graduates are ready to face a variety of challenges, significantly contributing to multidisciplinary teams and diverse projects."
+      },
+      "csj": {
+        "title": "Technical Support Analyst at CSJ SYSTEMS",
+        "type": "Experience",
+        "period": "01/2022 - currently",
+        "description": "Customer support in a SAAS system. Requires practical knowledge of the platform, which can be summarized as an ERP or POS."
+      },
+      "ufersa": {
+        "title": "Bachelor's in Science and Technology (BCT) - UFERSA",
+        "type": "Education",
+        "period": "06/2018 - incomplete",
+        "description": "The Bachelor's in Science and Technology prepares professionals for specialization in various engineering fields, such as civil, mechanical, and electrical. During this course, I noticed my growing interest in programming. Due to this passion and the intensity with which I began to dedicate myself to this new field, I decided to pause the course and focus my efforts on developing programming skills and knowledge."
+      }
+    }
   },
   "projects": {
     "title": "Projects",

@@ -18,10 +18,10 @@ export default function Home() {
       transition={{ duration: 0.5 }}
       className="min-h-screen flex flex-col justify-center"
     >
-      <h1 className="text-4xl font-bold mb-4 w-8/12 font-[family-name:var(--font-geist-mono)]">
+      <h1 className="text-4xl font-bold mb-4 md:w-8/12 font-[family-name:var(--font-geist-mono)]">
         {t("title")}
       </h1>
-      <p className="text-2xl mb-8 w-8/12 font-[family-name:var(--font-geist-mono)]">
+      <p className="text-2xl mb-8 md:w-8/12 font-[family-name:var(--font-geist-mono)]">
         {t("sub-title")}
       </p>
       <div className="flex space-x-4">
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 
       <div className="mt-8">
-        <pre className="w-8/12 font-[family-name:var(--font-geist-sans)] whitespace-pre-line">
+        <pre className="md:w-8/12 font-[family-name:var(--font-geist-sans)] whitespace-pre-line">
           {t("summary")}
         </pre>
       </div>

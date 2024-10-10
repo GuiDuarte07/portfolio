@@ -28,7 +28,7 @@ export default function Header() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-2xl font-semibold flex items-center gap-2 font-[family-name:var(--font-geist-mono)]"
+            className="text-sm md:text-2xl font-semibold flex items-center gap-2 font-[family-name:var(--font-geist-mono)]"
           >
             <SquareTerminal />Guilherme Duarte
           </motion.div>
@@ -42,7 +42,7 @@ export default function Header() {
               </div>
             </div>
           <motion.div
-            className={`${menuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row absolute md:relative top-full left-0 w-full md:w-auto bg-black md:bg-transparent`}
+            className={`${menuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row absolute md:relative top-full left-0 w-full md:w-auto dark:bg-black bg-slate-100 md:bg-transparent`}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}

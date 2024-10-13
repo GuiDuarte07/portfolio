@@ -47,13 +47,13 @@ export default async function RootLayout({
 
             <footer className="container mx-auto px-6 py-4 mt-12">
               <div className="flex justify-center space-x-4">
-                <a href="#" className="hover:text-purple-300 transition-colors">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/GuiDuarte07" className="hover:text-purple-300 transition-colors">
                   <Github />
                 </a>
-                <a href="#" className="hover:text-purple-300 transition-colors">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/guilduarte07/" className="hover:text-purple-300 transition-colors">
                   <Linkedin />
                 </a>
-                <a href="#" className="hover:text-purple-300 transition-colors">
+                <a rel="noopener noreferrer" href="mailto:guilhduart.abr@gmail.com" className="hover:text-purple-300 transition-colors">
                   <Mail />
                 </a>
               </div>

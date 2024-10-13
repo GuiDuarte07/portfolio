@@ -22,6 +22,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Portfolio - Guilherme Duarte',
   description: 'Esse é meu portfolio web.',
+  icons: {
+    icon: "../favicon.svg"
+  }
 }
 
 

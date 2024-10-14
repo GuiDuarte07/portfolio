@@ -56,6 +56,22 @@
     "controleCerto": {
       "name": "Controle Certo",
       "description": "Controle Certo is an expense and revenue management application. The goal of this site is to allow users to better control their expenses, improving their financial health. The differential of Controle Certo is its friendly and easy-to-understand interface. This site allows you to register your accounts, cards, and separate your income and expenses into categories, also allowing you to control the bills of the registered cards."
+    },
+    "kanbanboard": {
+      "name": "Kanban Board",
+      "description": "This project was developed based on Trello. It is a website where you can create cards with items inside each card, and it is possible to drag these items between them or between different cards. This project was developed using only HTML, CSS, and pure JavaScript, leveraging only the features provided by the browser APIs."
+    },
+    "esportreact": {
+      "name": "Esport Tournament",
+      "description": "Landing page project for e-sport tournament registration, developed during an internship. The development used TypeScript, React, Styled-Components, Context API (React), and Custom Hooks (React)."
+    },
+    "apollocoders": {
+      "name": "Apollo Coders",
+      "description": "Apollo Coders is the name given to our team during the Angular/.NET 'Sharp Coders' Bootcamp, where I participated as the team leader of a group of 12 people. We designed a landing page and also a prototype of a digital bank using Figma (for design), Angular, Bootstrap, .NET, JWT, etc. As the leader, I was responsible for defining the project and managing the team."
+    },
+    "guiaplus": {
+      "name": "Guia Plus",
+      "description": "The Guia+ system is a web application that will be made available to any qualified transporter, allowing them to register clients, manage waybills, start collections, and confirm pickups. The project was developed within 2 days using Vite, React, Leaflet, Axios, React Hook Form, React Router DOM, and Material UI."
     }
   }
 }

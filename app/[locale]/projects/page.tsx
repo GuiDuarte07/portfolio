@@ -14,7 +14,22 @@ import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-const projects = [
+const projects: {key: string, image: string, link: string}[] = [
+  {
+    key: "controleCerto",
+    image: "/images/controlecerto.png",
+    link: "https://github.com/GuiDuarte07/controlecerto_frontend",
+  },
+  {
+    key: "apollocoders",
+    image: "/images/apollobank.png",
+    link: "https://github.com/orgs/Apollo-Coders/repositories"
+  },
+  {
+    key: "jogoDosNumeros",
+    image: "/images/jogodosnumeros.png",
+    link: "https://github.com/GuiDuarte07/Jogo-dos-numeros",
+  },
   {
     key: "campoMinado",
     image: "/images/campominado.png",
@@ -26,14 +41,19 @@ const projects = [
     link: "https://github.com/GuiDuarte07/Chess-game_test",
   },
   {
-    key: "jogoDosNumeros",
-    image: "/images/jogodosnumeros.png",
-    link: "https://github.com/GuiDuarte07/Jogo-dos-numeros",
+    key: "kanbanboard",
+    image: "/images/kanbanboard.gif",
+    link: "https://github.com/GuiDuarte07/Kanban-Board"
   },
   {
-    key: "controleCerto",
-    image: "/images/controlecerto.png",
-    link: "https://github.com/GuiDuarte07/controlecerto_frontend",
+    key: "esportreact",
+    image: "/images/esporttournament.png",
+    link: "https://github.com/GuiDuarte07/esport-tournament-react"
+  },
+  {
+    key: "guiaplus",
+    image: "/images/guiaplus.png",
+    link: "https://github.com/GuiDuarte07/guia-plus-frontend"
   },
 ];
 
@@ -65,7 +85,7 @@ export default function Projects() {
                   alt={t(`${project.key}.name`)}
                   width={400}
                   height={300}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 lg:h-60 object-cover object-top"
                 />
               </CardHeader>
               <CardContent className="p-4">

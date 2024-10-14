@@ -56,6 +56,22 @@
     "controleCerto": {
       "name": "Controle Certo",
       "description": "Controle Certo é um aplicativo de gerenciamento de despesas e receitas. O objetivo desse site é permitir um controle maior dos gastos do usuário, a fim de melhorar a saúde financeira dele. O diferencial do Controle Certo é sua interface amigável e de fácil compreensão. Nesse site, é possível registrar suas contas, cartões e separar suas receitas e despesas por categorias, sendo possível também ter um controle das faturas dos cartões cadastrados."
+    },
+    "kanbanboard": {
+      "name": "Quadro Kanban",
+      "description": "Esse projeto foi desenvolvido baseado no Trello, é um site que é possível criar cards com ítens dentro de cada card, sendo possível arrastar esses ícones entre eles ou entre diferentes card. Esse projeto foi desenvolvido apenas utilizando HTML, CSS e Javascript puro, apenas com os recursos que as API's do navegador fornece."
+    },
+    "esportreact": {
+      "name": "Esport Tournament",
+      "description": "Projeto landing page de inscrição para torneio de e-sport, desenvolvida durante um estágio, no desenvolvimento foi utilizado Typescript, React, Styled-Components, Context API (React), Custom Hooks (React)."
+    },
+    "apollocoders": {
+      "name": "Apollo Coders",
+      "description": "Apollo Coders é o nome dado a nossa equipe durante o Bootcamp Angular/.Net 'Sharp Coders', onde eu participei como líder do grupo composto por 12 pessoas. Projetamos landing page e também um protótipo de um banco digítal usando Figma (para design), Angular, Bootstrap, .Net, JWT etc. Como líder tive a responsabilidade de definir o projeto e gerenciar a equipe."
+    },
+    "guiaplus": {
+      "name": "Guia Plus",
+      "description": "O sistema Guia+ é uma aplicação Web, que será fornecido a qualquer Transportador habilitado para uso, permitindo ao mesmo que realize cadatro de clientes, gestão de guias, início de coleta e confirmação de retirada. O projeto foi desenvolvido no prazo de 2 dias, utilizando Vite, React, Lealet, Axios, React Hooks Forms, React Router DOM e Material UI."
     }
   }
 }
